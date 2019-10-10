@@ -8,13 +8,31 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
+class ViewController: UIViewController
+{
+    @IBOutlet weak var TextField1: UITextField!
+    
+    @IBOutlet weak var TextField2: UITextField!
+    
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        
+        
     }
 
+    @IBAction func Button(_ sender: UIButton)
+    {
+        
+        
+        
+        
+    }
+    
+    
+    
 
 }
 
