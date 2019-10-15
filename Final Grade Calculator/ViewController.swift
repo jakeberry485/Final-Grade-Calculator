@@ -47,7 +47,10 @@ class ViewController: UIViewController
         let result = (num2 - num1 * (1 - num3)) / num3
             
         Label.text = String(result)
-        
+        if result < 100
+        {
+            view.backgroundColor = UIColor.green
+        }
     }
     
     
